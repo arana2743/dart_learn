@@ -12,4 +12,10 @@ void main() {
   print(age);
   print(price);
   print(isWorkDone);
+
+  // to check type of any variable
+  print(name.runtimeType);
+  print(age.runtimeType);
+  print(price.runtimeType);
+  print(isWorkDone.runtimeType);
 }
